@@ -1,6 +1,6 @@
 networks:
   default:
-    drivers: bridge
+    driver: bridge
     name: roboshop
 
 services:
