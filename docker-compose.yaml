@@ -60,6 +60,8 @@ services:
   frontend:
     image: shanmukhatadisetti/frontend:v1
     container_name: frontend
+    ports:
+      - 80:80
     depends_on:
       - catalogue
       - user
