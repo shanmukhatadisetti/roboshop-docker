@@ -2,13 +2,11 @@ networks:
   default:
     driver: bridge
     name: roboshop
-
 volumes:
   mongodb:
   redis:
   mysql:
   rabbitmq:
-
 services:
   mongodb:
     image: shanmukhatadisetti/mongodb:v1
